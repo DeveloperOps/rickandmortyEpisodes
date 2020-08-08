@@ -1,0 +1,61 @@
+.marginTop {
+    margin-top: 15px;
+}
+
+.floatRight {
+    float: right;
+}
+
+.header {
+    height: 70px;
+    background-color: #000;
+    border-bottom: 1px solid rgb(207, 203, 203);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Helvetica, Arial , sans-serif;
+    letter-spacing: .8px;
+}
+.logoInput {
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 9.2px;
+    border-radius: 10px;
+    width: 70%;
+    transition: all .5s;
+    text-align: center;
+    font-weight: 600;
+}
+.inputBtn {
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-left: -20px;
+    margin-right: 3px;
+    padding-bottom: 7px;
+    padding-top: 2px;
+}
+.inputBtn:focus {
+    outline: none;
+}
+.inputBtn img {
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+    margin-left: 10px;
+}
+.logoInput:focus {
+    outline: none;
+    width: 80%;
+}
+
+.logoName {
+    cursor: pointer;
+}
